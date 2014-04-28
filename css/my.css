@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.cm_title{
+	font-family: 'Signika',"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.cm_brand,
+.cm_navbar li a {
+    line-height: 66px;
+    height: 66px;
+    padding-top: 0;
+}
+
+.cm_intro-message {
+	text-align:left;
+	font-weight: 400;
+
+}
+
+.cm_list-inline{
+	padding-left:0px;
+}
+
+.cm_demovideo{
+	padding-top:80px;
+	padding-bottom:40px;
+	text-align:right;
+}
+
+.cm_red_title{
+	color:#E44424;
+	font-weight:500;
+}
+
+.cm_text_des{
+	color:#000;
+	text-align:left;
+	font-family: 'Signika',"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight:300;
+}
