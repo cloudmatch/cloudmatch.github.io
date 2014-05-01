@@ -1,8 +1,88 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.intro-header {
+	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+	padding-bottom: 50px;
+	color: #f8f8f8;
+	background-size: cover;
+	background-color:#13B4DB;
+	text-align: center;
+}
+
+.content-section-a {
+	background-color: #EB5F60;
+	background-size: 1500px;
+	padding: 40px 0;
+}
+
+.content-section-b {
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+	padding: 50px 0;
+	background-color:#CCCCCC;
+}
+
+.content-section-c {
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+	padding: 50px 0;
+	background-color:#F7F7F7;
+}
+
+.content-section-d {
+	background-color: #EB5F60;
+	background: url(../img/banner-bg.jpg);
+	background-size: 1500px;
+	padding: 40px 0;
+}
+
+.cm_logo{
+	max-height: 50px;
+}
+
 .cm_title{
-	font-family: 'Signika',"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: 'Signika','roboto-regular', "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.cm_gestures{
+	color: #494949;
+	font-size: 3em;
+	text-align: left;
+}
+
+.cm_gestures_img{
+	max-height: 500px;
+	padding: 20px;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.cm_red_title{
+	color:#E44424;
+	font-weight:500;
+	text-align: left;
+}
+
+.cm_gestures_text{
+	color:#fff;
+	text-align: left;
+	font-weight: 100;
+}
+
+.cm_features_img{
+	max-height: 250px;
+	padding: 10px
+}
+
+.cm_center-align{
+	text-align: center;
+}
+
+
+.cm_divider {
+	width: 800px;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .cm_brand,
@@ -14,8 +94,16 @@
 
 .cm_intro-message {
 	text-align:left;
-	font-weight: 400;
+	font-weight: 500;
 
+}
+
+.cm_brandmessage{
+	font-size: 260%;
+	font-weight:100;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
 }
 
 .cm_list-inline{
@@ -28,14 +116,17 @@
 	text-align:right;
 }
 
-.cm_red_title{
-	color:#E44424;
-	font-weight:500;
-}
+
 
 .cm_text_des{
 	color:#000;
 	text-align:left;
 	font-family: 'Signika',"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight:300;
+}
+
+.img-responsive {
+ display: block;
+ height: auto;
+ max-width: 100%;
 }

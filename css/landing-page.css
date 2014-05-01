@@ -4,8 +4,7 @@ body, html {
 }
 
 body, h1, h2, h3, h4, h5, h6 {
-	font-family: "Signika", "robotoregular","Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: 300;
+	font-family: "Signika", "roboto-regular","Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .lead {
@@ -13,27 +12,18 @@ body, h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 }
 
-.intro-header {
-	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-	padding-bottom: 50px;
-	color: #f8f8f8;
-	background-size: cover;
-	background-color:#67bcdb;
-	text-align: center;
-}
+
 
 .intro-message {
 	position: relative;
 	padding-top: 20%;
 	padding-bottom: 20%;
-	font-weight: 400;
 
 }
 
 .intro-message > h1 {
 	margin: 0;
 	font-size: 5em;
-	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
 .intro-divider {
@@ -43,7 +33,6 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .intro-message > h3 {
-	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
 @media (max-width: 767px) {
@@ -77,18 +66,9 @@ body, h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 2px;
 }
 
-.content-section-a {
-	background-color: #f8f8f8;
-	background: url(../img/banner-bg.jpg) no-repeat center center;
-	padding: 50px 0;
-}
 
-.content-section-b {
-	border-top: 1px solid #e7e7e7;
-	border-bottom: 1px solid #e7e7e7;
-	padding: 50px 0;
-	background-color:#FFF;
-}
+
+
 
 .section-heading {
 	margin-bottom: 30px;
