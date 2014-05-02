@@ -3,11 +3,18 @@
 
 .intro-header {
 	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-	padding-bottom: 50px;
 	color: #f8f8f8;
 	background-size: cover;
-	background-color:#13B4DB;
-	text-align: center;
+	text-align: left;
+	background-color: #13B4Db;
+}
+
+.cm_intro_background{
+	background-color: #13B4Db;
+}
+
+.cm_navbar{
+    background-color: #fff;
 }
 
 .content-section-a {
@@ -17,25 +24,37 @@
 }
 
 .content-section-b {
-	border-top: 1px solid #e7e7e7;
-	border-bottom: 1px solid #e7e7e7;
-	padding: 50px 0;
+	border-top: 1px solid #FFF;
+	border-bottom: 1px solid #D3C5B5;
+	padding: 100px 0;
 	background-color:#CCCCCC;
+	margin: 0 0 3px 0;
 }
 
 .content-section-c {
 	border-top: 1px solid #e7e7e7;
-	border-bottom: 1px solid #e7e7e7;
-	padding: 50px 0;
-	background-color:#F7F7F7;
+	border-bottom: 1px solid #D3C5B5;
+	padding: 100px 0;
+	margin: 0 0 3px 0;
+	background: url("../img/gray.png");
+  	background-repeat: repeat;
+  	width: 100%;
+
 }
 
 .content-section-d {
 	background-color: #EB5F60;
 	background: url(../img/banner-bg.jpg);
 	background-size: 1500px;
-	padding: 40px 0;
+	padding: 50px 0;
 }
+
+.content-section-e {
+	background-color: #EB5F60;
+	background-size: 1500px;
+	padding: 100px 0;
+}
+
 
 .cm_logo{
 	max-height: 50px;
@@ -43,12 +62,19 @@
 
 .cm_title{
 	font-family: 'Signika','roboto-regular', "Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-align: left;
 }
 
-.cm_gestures{
+.cm_piece{
+	max-width: 40px;
+	text-align: center;
+}
+
+.cm_sub-title{
 	color: #494949;
 	font-size: 3em;
 	text-align: left;
+	padding-bottom:20px;
 }
 
 .cm_gestures_img{
@@ -57,25 +83,64 @@
 	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
-.cm_red_title{
-	color:#E44424;
-	font-weight:500;
+.cm_gestures_title{
 	text-align: left;
+	color:#494949;
 }
 
 .cm_gestures_text{
-	color:#fff;
+	color:#494949;
 	text-align: left;
 	font-weight: 100;
 }
 
-.cm_features_img{
-	max-height: 250px;
-	padding: 10px
+.cm_red_title{
+	color:#E44424;
+	font-weight:500;
 }
 
-.cm_center-align{
+.cm_gray_title{
+	color:#494949;
+	font-weight:500;
+}
+
+.cm_text_light{
+	font-weight: lighter;
+}
+
+.cm_text_red{
+	color:#E44424;
+}
+
+.cm_text_blue{
+	color:#13B4DB;
+}
+
+.cm_text_w{
+	color:#fff;
+}
+
+.cm_features-top{
+	padding-bottom: 50px;
+}
+
+.cm_features_img{
 	text-align: center;
+	max-width: 180px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.cm_features_title{
+	font-family: 'Signika','roboto-regular', "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.cm_center_align{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -90,6 +155,9 @@
     line-height: 66px;
     height: 66px;
     padding-top: 0;
+    font-family: "roboto-regular", "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 }
 
 .cm_intro-message {
@@ -101,8 +169,8 @@
 .cm_brandmessage{
 	font-size: 260%;
 	font-weight:100;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 45px;
+	margin-bottom: 40px;
 	text-align: center;
 }
 
@@ -116,17 +184,39 @@
 	text-align:right;
 }
 
-
-
 .cm_text_des{
-	color:#000;
-	text-align:left;
-	font-family: 'Signika',"Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #333333;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight:300;
 }
 
-.img-responsive {
- display: block;
- height: auto;
- max-width: 100%;
+footer {
+	background-color: #2B2827;
+	padding: 70px;
 }
+.cm_call-text{
+	font-weight: 100;
+	font-size: e3px;
+	color: #fff;
+	text-align: left;
+
+
+}
+.img-responsive {
+ 	display: block;
+ 	height: auto;
+ 	max-width: 100%;
+}
+
+.cm_footer{
+	text-align: left;
+	font: #EB5F60;
+	font-weight: 100;
+	font-size: 18px;
+}
+
+.cm_logo_footer{
+	max-width: 150px;
+}
+
+
