@@ -241,7 +241,7 @@ footer {
 	border-right: 1px solid #D3C5B5;
 	max-width: 830px;
 	padding: 0px;
-	margin-bottom: 100px;
+	margin-bottom: 120px;
 }
 
 .cm_about-us_title{
@@ -263,7 +263,15 @@ footer {
 
 .cm_about-us-des{
 	text-align: left;
-	color:#a9a5a5;
+	color:#8c8383;
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 1.7;
+}
+
+.cm_developer_intro{
+	text-align: left;
+	color: #fff;
 	font-size: 20px;
 	font-weight: lighter;
 	line-height: 1.7;
@@ -302,4 +310,51 @@ footer {
 	padding-bottom: 10px
 	text-align: center;
 	max-width: 30px;
+}
+
+/* Developers page */
+
+.cm_background_red{
+	background-color: #EB5F60;
+}
+
+.cm_price_padding{
+	padding: 15px;
+}
+
+.cm_price_free{
+	background-color: #EB5F60;
+	padding-bottom: 20px;
+	border:1px solid #EB5F60;
+	border-radius: 5px;
+}
+
+
+.cm_price_advanced{
+	background-color: #a1b9d1;
+	padding-bottom: 20px;
+	border:1px solid #13B4DB;
+	border-radius: 5px;
+
+}
+
+.cm_lite{
+	font-family: Roboto-regular, "Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-align: left;
+	font-weight: 300;
+	color:#fff;
+	font-size: 25px;
+	line-height: 1.7;
+	padding-left: 20px;
+	padding-bottom: 5px;
+}
+
+.check{
+	font-family: Roboto-light, "Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-align: left;
+	font-weight: ;
+	color:#fff;
+	font-size: 18px;
+	line-height: 2.3;
+	padding-top: 15px;
 }
