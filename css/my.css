@@ -55,6 +55,16 @@
 	padding: 100px 0;
 }
 
+.content-section-f {
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #D3C5B5;
+	padding-top: 100px;
+	margin: 0 0 3px 0;
+	background: url("../img/gray.png");
+  	background-repeat: repeat;
+  	width: 100%;
+
+}
 
 .cm_logo{
 	max-height: 50px;
@@ -188,6 +198,11 @@
 	color: #333333;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight:300;
+}
+
+.cm_demo-app_img{
+	text-align: center;
+	max-width: 30px;
 }
 
 footer {
