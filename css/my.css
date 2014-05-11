@@ -87,10 +87,16 @@
 	padding-bottom:20px;
 }
 
+.lite{
+	font-weight: lighter;
+}
+
 .cm_gestures_img{
 	max-height: 500px;
 	padding: 20px;
 	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .cm_gestures_title{
@@ -102,6 +108,12 @@
 	color:#494949;
 	text-align: left;
 	font-weight: 100;
+}
+.cm_features_text{
+	color:#494949;
+	text-align: left;
+	font-weight: 100;
+	padding-top: 10px;
 }
 
 .cm_red_title{
@@ -141,6 +153,8 @@
 	padding-bottom: 30px;
 	padding-left: 10px;
 	padding-right: 10px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .cm_features_title{
@@ -182,6 +196,7 @@
 	margin-top: 45px;
 	margin-bottom: 40px;
 	text-align: center;
+	color: #fff;
 }
 
 .cm_list-inline{
@@ -203,6 +218,8 @@
 .cm_demo-app_img{
 	text-align: center;
 	max-width: 30px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 footer {
@@ -380,4 +397,8 @@ footer {
 	font-size: 18px;
 	line-height: 2.3;
 	padding-top: 15px;
+}
+
+.contact-form {
+    margin-top:30px;
 }
