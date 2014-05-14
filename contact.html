@@ -40,9 +40,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
                 <ul class="nav navbar-nav cm_navbar">
-                    <li><a href="#features">Features</a>
+                    <li><a href="index.html">Features</a>
                     </li>
-                    <li><a href="#developers">Get started</a>
+                    <li><a href="get-started.html">Get started</a>
                     </li>
                     <li><a href="contact.html">Contact</a>
                     </li>
@@ -63,7 +63,7 @@
                 <div class="col-md-12">
                     <div class="cm_padding">
                         <h3 class="cm_about-us-des">We're based in Amsterdam. Drop by Appsterdam Coworking Space at A-Lab building</h3>
-                        
+
                         <h3 class="cm_about-us-des">Overhoeksplein 2
                         <br>1031 KS Amsterdam Noord</h3>
                         <h3 class="cm_about-us-des">hello@cloudmatch.io</h3>
@@ -76,7 +76,7 @@
                     <h1>map comes here</h1>
                         <div id="map"></div>
                     </div>
-                    
+
                 </div>
             </div>
                         <div class="cm_padding about-us-section">
@@ -102,7 +102,7 @@
                             </form>
                             </div>
                         </div>
-                         
+
 
                         </div>
 
@@ -145,7 +145,7 @@
      <script type="text/javascript">
             // When the window has finished loading create our google map below
             google.maps.event.addDomListener(window, 'load', init);
-        
+
             function init() {
                 // Basic options for a simple Google Map
                 // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
@@ -156,13 +156,13 @@
                     // The latitude and longitude to center the map (always required)
                     center: new google.maps.LatLng(40.6700, -73.9400), // New York
 
-                    // How you would like to style the map. 
+                    // How you would like to style the map.
                     // This is where you would paste any style found on Snazzy Maps.
                     styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#a2daf2"}]},{"featureType":"landscape.man_made","elementType":"geometry","stylers":[{"color":"#f7f1df"}]},{"featureType":"landscape.natural","elementType":"geometry","stylers":[{"color":"#d0e3b4"}]},{"featureType":"landscape.natural.terrain","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#bde6ab"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"poi.medical","elementType":"geometry","stylers":[{"color":"#fbd3da"}]},{"featureType":"poi.business","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffe15f"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#efd151"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"color":"black"}]},{"featureType":"transit.station.airport","elementType":"geometry.fill","stylers":[{"color":"#cfb2db"}]}]
                 };
 
-               
-                // Get the HTML DOM element that will contain your map 
+
+                // Get the HTML DOM element that will contain your map
                 // We are using a div with id="map" seen below in the <body>
                 var mapElement = document.getElementById('map');
 
@@ -175,7 +175,7 @@ var myOptions = {
 };
 
 var map = new google.maps.Map(document.getElementById('map'), myOptions);
-        
+
 
 
 
