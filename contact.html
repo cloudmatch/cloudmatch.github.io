@@ -57,35 +57,23 @@
     <div class="intro-about-us cm_gray">
         <div class="container">
             <h2 class="cm_about-us_title">contact</h2>
-        <div class="container about-us-section-a">
+            <div class="container about-us-section-a">
 
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="cm_padding">
-                        <h3 class="cm_about-us-des">We're based in Amsterdam. Drop by Appsterdam Coworking Space at A-Lab building</h3>
-
-                        <h3 class="cm_about-us-des">Overhoeksplein 2
-                        <br>1031 KS Amsterdam Noord</h3>
-                        <h3 class="cm_about-us-des">hello@cloudmatch.io</h3>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="cm_padding">
+                            <h3 class="cm_about-us-des">We're based in Amsterdam.</h3>
+                            <h3 class="cm_about-us-des">hello@cloudmatch.io</h3>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="cm_padding">
-                    <h1>map comes here</h1>
-                        <div id="map"></div>
-                    </div>
+                <div class="cm_padding about-us-section">
+                    <h2 class="cm_about-us">Drop us a line</h2>
 
-                </div>
-            </div>
-                        <div class="cm_padding about-us-section">
-                            <h2 class="cm_about-us">Drop us a line</h2>
+                    <!-- / contact -->
 
-                        <!-- / contact -->
-
-                        <div class="contact-form">
-                            <form id="contact" method="post" class="form" role="form">
+                    <div class="contact-form">
+                        <form id="contact" method="post" class="form" role="form">
                             <div class="row">
                                 <div class="col-xs-6 col-md-6 form-group">
                                     <input class="form-control" id="name" name="name" placeholder="Name" type="text" required autofocus />
@@ -94,25 +82,21 @@
                                     <input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
                                 </div>
                             </div>
-                        <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
-                        <br/>
-                        <div class="row">
-                            <div class="col-xs-12 col-md-12 form-group">
-                                <button class="btn btn-default btn-lg" type="submit">Submit</button>
-                            </form>
+                            <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
+                            <br/>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-12 form-group">
+                                    <button class="btn btn-default btn-lg" type="submit">Submit</button>
+                                </form>
                             </div>
                         </div>
-
-
-                        </div>
-
-                     </div>
-            </div>
-
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-        <!-- /.container -->
+</div>
+<!-- /.container -->
 
 
 
@@ -120,10 +104,10 @@
 </body>
 
 
-    <footer>
-        <div class="container">
-            <div class="row cm_footer">
-                <div class="col-lg-12">
+<footer>
+    <div class="container">
+        <div class="row cm_footer">
+            <div class="col-lg-12">
                 <img class="cm_logo_footer img-responsive" src="img/logo_white.png" alt="logo">
                 <br>
                 <a class="cm_footer cm_footer_link" id="footer" href="about-us.htm" class="">About us</a>
@@ -133,16 +117,16 @@
                 <a class="cm_footer cm_footer_link" id="footer" href="#" class="">Privacy Policy</a>
                 <br>
                 <p class="copyright text-muted small">Copyright &copy; GestureMatch 2014. All Rights Reserved</p>
-                </div>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
 
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
+<!-- JavaScript -->
+<script src="js/jquery-1.10.2.js"></script>
+<script src="js/bootstrap.js"></script>
 
-     <script type="text/javascript">
+<script type="text/javascript">
             // When the window has finished loading create our google map below
             google.maps.event.addDomListener(window, 'load', init);
 
@@ -167,22 +151,22 @@
                 var mapElement = document.getElementById('map');
 
                 // Create the Google Map using out element and options defined above
-var myOptions = {
-    zoom: 15,
-    center: new google.maps.LatLng(53.385873, -1.471471),
-    mapTypeId: google.maps.MapTypeId.ROADMAP,
-    styles: style_array_from_above_here
-};
+                var myOptions = {
+                    zoom: 15,
+                    center: new google.maps.LatLng(53.385873, -1.471471),
+                    mapTypeId: google.maps.MapTypeId.ROADMAP,
+                    styles: style_array_from_above_here
+                };
 
-var map = new google.maps.Map(document.getElementById('map'), myOptions);
+                var map = new google.maps.Map(document.getElementById('map'), myOptions);
 
 
 
 
 
             }
-        </script>
+            </script>
 
 
 
-</html>
+            </html>
