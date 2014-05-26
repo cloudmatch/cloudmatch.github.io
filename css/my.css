@@ -66,6 +66,18 @@
 
 }
 
+.content-section-g {
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #D3C5B5;
+	margin: 0 0 3px 0;
+	background: url("../img/white.png");
+  	background-repeat: repeat;
+  	width: 100%;
+  	padding-top: 100px;
+
+
+}
+
 .cm_logo{
 	max-height: 50px;
 }
@@ -213,6 +225,29 @@
 	color: #333333;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight:300;
+}
+
+.img-gif{
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 100px;
+}
+
+.carousel-control.left, .carousel-control.right{ 
+background: none !important; 
+filter: progid:none !important; 
+}
+
+.cm_gif-text{
+	color:#494949;
+	text-align: center;
+	font-weight: 100;
+	padding-top: 10px;
+
+}
+.carousel-control .icon-prev, 
+.carousel-control .icon-next {
+    font-size: 100px;
 }
 
 .cm_demo-app_img{
