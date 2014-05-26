@@ -74,10 +74,17 @@
   	background-repeat: repeat;
   	width: 100%;
   	padding-top: 100px;
-
-
+  	padding-bottom: 60px;
 }
 
+.content-section-h {
+	background-color: #494949;
+	background-size: 1500px;
+	padding: 30px 0;
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #D3C5B5;
+	margin: 0 0 3px 0;
+}
 .cm_logo{
 	max-height: 50px;
 }
@@ -230,7 +237,6 @@
 .img-gif{
 	margin-right: auto;
 	margin-left: auto;
-	margin-bottom: 100px;
 }
 
 .carousel-control.left, .carousel-control.right{ 
@@ -250,6 +256,9 @@ filter: progid:none !important;
     font-size: 100px;
 }
 
+.gif-size{
+	max-hight: 40px;
+}
 .cm_demo-app_img{
 	text-align: center;
 	max-width: 25px;
