@@ -259,6 +259,21 @@ filter: progid:none !important;
 .gif-size{
 	max-hight: 40px;
 }
+
+.gif-text{
+	color:#494949;
+	text-align: center;
+	font-weight: 100;
+}
+
+.carousel-indicators li {
+    background: #ccc;
+}
+
+.carousel-indicators .active {
+    background: #666;
+}
+
 .cm_demo-app_img{
 	text-align: center;
 	max-width: 25px;
