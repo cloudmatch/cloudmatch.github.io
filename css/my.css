@@ -281,6 +281,19 @@ filter: progid:none !important;
 	margin-left: auto;
 }
 
+.cm_btn_align{
+	text-align:center;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 25px;
+}
+
+.cm_btn_padding{
+	margin-left: 10px;
+	margin-right: 10px;
+}
 footer {
 	background-color: #2B2827;
 	padding: 70px;
