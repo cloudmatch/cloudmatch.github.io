@@ -11,9 +11,11 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
 
     <!-- Custom Google Web Font -->
-	<link href='http://fonts.googleapis.com/css?family=Signika:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Signika:400,300,700' rel='stylesheet' type='text/css'>
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
 
@@ -21,9 +23,36 @@
     <link href="css/landing-page.css" rel="stylesheet">
     <link href="css/my.css" rel="stylesheet">
 
+
+    <script type="text/javascript">
+
+        $( document ).ready(function() {
+            $('#myCarousel').carousel();
+        });
+
+        function carouselTo0() {
+            $('#myCarousel').carousel(0);
+        }
+
+        function carouselTo1() {
+            $('#myCarousel').carousel(1);
+        }
+
+        function carouselTo2() {
+            $('#myCarousel').carousel(2);
+        }
+
+        function carouselTo3() {
+            $('#myCarousel').carousel(3);
+        }
+
+    </script>
+
 </head>
 
 <body>
+
+
 
     <nav class="navbar navbar-default navbar-fixed-top cm_navbar" role="navigation">
         <div class="container">
@@ -75,20 +104,20 @@
 
                 </div>
 
-<!-- / demo video -->
+                <!-- / demo video -->
 
                 <div class="col-md-8">
                 	<div class="cm_demovideo">
 
-                    <iframe src="http://player.vimeo.com/video/92217719?title=0&amp;byline=0&amp;portrait=0" width="699" height="393" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    <br>
-                    <br>
-                    <br>
+                        <iframe src="http://player.vimeo.com/video/92217719?title=0&amp;byline=0&amp;portrait=0" width="699" height="393" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <br>
+                        <br>
+                        <br>
                     </div>
                 </div>
 
             </div>
-        <!-- /.container -->
+            <!-- /.container -->
 
         </div>
     </div>
@@ -103,18 +132,18 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="cm_brandmessage">CloudMatch brings back real-life interaction between mobile users</h2>
+                    </div>
+
                 </div>
 
             </div>
-
+            <!-- /.container -->
         </div>
-        <!-- /.container -->
-    </div>
 
-    <!-- /.Gestures -->
+        <!-- /.Gestures -->
 
-    <div class="content-section-c">
-		<div class="container">
+        <div class="content-section-c">
+          <div class="container">
             <h1 class="cm_sub-title">Match devices using gestures!</h1>
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6">
@@ -157,12 +186,12 @@
                     <h4 class="cm_gray_title">Fast connection</h4>
                     <p class="cm_text_des">Once devices are matched, we create a fast and safe channel between them. Exchange any data you like responding to the users' actions.</p>
                 </div>
-                 <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="col-lg-3 col-md-3 col-sm-3">
                     <img class="cm_features_img img-responsive" src="img/features_position.png" alt="positon"></img>
                     <h4 class="cm_gray_title">Position recognition</h4>
                     <p class="cm_text_des">Each device in the group knows where all the other devices are. Use this information in you app to create wowy effects!</p>
                 </div>
-                 <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="col-lg-3 col-md-3 col-sm-3">
                     <img class="cm_features_img img-responsive" src="img/features_screens.png" alt="screens"></img>
                     <h4 class="cm_gray_title">Gesture tracking</h4>
                     <p class="cm_text_des">You know the exact location on screen where the gesture happened. For instance, you could display one image beyond one single screen. </p>
@@ -174,69 +203,72 @@
     </div>
 
     <div class="content-section-g">
+
         <div class="container">
+
             <div class="row cm_features-top">
+
                 <div class="col-lg-4">
                     <h1 class="cm_sub-title">Use CloudMatch</h1>
+
                 </div>
+
                 <div class="col-lg-8">
                     <h3 class="cm_features_text">Here are some app examples made possible by the CloudMatch technology.</h3>
                 </div>
             </div>
-        <div class="col-lg-12 cm_btn_align">
-            <a href="" class="btn btn-default btn-lg cm_btn_padding"><span class="network-name">Group Learning</span></a>
-            <a href="" class="btn btn-default btn-lg cm_btn_padding"><span class="network-name">Sharing</span></a>
-            <a href="" class="btn btn-default btn-lg cm_btn_padding"><span class="network-name">Social Media</span></a>
-            <a href="" class="btn btn-default btn-lg cm_btn_padding"><span class="network-name">Games</span></a>
-        </div>
 
-            
-
-
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
-    <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            </ol>
-
-  <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <img class="img-gif" src="img/gif-circuit.gif" alt="circuit">
-                <div class="carousel-caption"><h3 class="cm_gif-text">Learn how electronic circuits work</div>
-            </div>
-            <div class="item">
-                <img class="img-gif" src="img/gif-lang.gif" alt="lang">
-                <div class="carousel-caption"><h3 class="cm_gif-text">Learn language together with your friends</div>
-            </div>
-            <div class="item">
-                <img class="img-gif" src="img/gif-math.gif" alt="math">
-                <div class="carousel-caption"><h3 class="cm_gif-text">Learn basic mathmatics</div>
+            <div class="cm_btn_align">
+                <button id="carousel-button-0" type="button" class="btn btn-default btn-lg cm_btn_padding" onclick="carouselTo0()">Group Learning</button>
+                <button id="carousel-button-1" type="button" class="btn btn-default btn-lg cm_btn_padding" onclick="carouselTo1()">Sharing</button>
+                <button id="carousel-button-2" type="button" class="btn btn-default btn-lg cm_btn_padding" onclick="carouselTo2()">Social Media</a>
+                <button id="carousel-button-3" type="button" class="btn btn-default btn-lg cm_btn_padding" onclick="carouselTo3()">Games</button>
             </div>
 
-        </div>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
 
-  <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left gif-text"></span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right gif-size gif-text"><h4>See more possibilities</h4></span>
-            </a>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img class="img-gif" src="img/gif-circuit.gif" alt="circuit">
+                        <div class="carousel-caption"><h3 class="cm_gif-text">Learn how electronic circuits work</div>
+                    </div>
+                    <div class="item">
+                        <img class="img-gif" src="img/gif-lang.gif" alt="lang">
+                        <div class="carousel-caption"><h3 class="cm_gif-text">Learn language together with your friends</div>
+                    </div>
+                    <div class="item">
+                        <img class="img-gif" src="img/gif-math.gif" alt="math">
+                        <div class="carousel-caption"><h3 class="cm_gif-text">Learn basic mathmatics</div>
+                    </div>
+
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left gif-text"></span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right gif-size gif-text"><h4>See more possibilities</h4></span>
+                </a>
             </div>
         </div>
-    </div>    
+    </div>
 
 
-<div class="content-section-h">
+    <div class="content-section-h">
 
         <div class="container">
 
             <div class="row">
                 <div class="col-lg-23 cm_call-text">
-                    <h2 class="cm_call-text">We're currently working with IJburg College in Amsterdam in creating the first app making use of CloudMatch technology. <a href="">Read our blog</a> to learn more about it.</h2>
+                    <h2 class="cm_call-text">We're currently working with IJburg College in Amsterdam in creating the first app making use of CloudMatch technology.</h2>
                     <br>
                 </div>
             </div>
@@ -259,38 +291,38 @@
                       </a>
 
                       <a href="#"></a><img alt="apple store" src="img/brand/apple-store.png" />
-                    </div>
+                  </div>
 
-                </div>
-                <div class="col-lg-7">
-                    <img class="cm_demo-app_img img-responsive" src="img/demo-app.png" alt="demoapp"></img>
-                </div>
+              </div>
+              <div class="col-lg-7">
+                <img class="cm_demo-app_img img-responsive" src="img/demo-app.png" alt="demoapp"></img>
             </div>
         </div>
     </div>
+</div>
 
 
-    <!-- /.content-section-a -->
+<!-- /.content-section-a -->
 
-    <div class="content-section-e">
+<div class="content-section-e">
 
-        <div class="container">
+    <div class="container">
 
-            <div class="row">
-                <div class="col-lg-23 cm_call-text">
-                    <h2 class="cm_call-text">CloudMatch aims to bring face-to-face interaction to the mobile experience.
+        <div class="row">
+            <div class="col-lg-23 cm_call-text">
+                <h2 class="cm_call-text">CloudMatch aims to bring face-to-face interaction to the mobile experience.
                     <br><br>
                     Ask for a free developer account and start experimenting today!</h2>
                     <br>
                 </div>
-                    <class="list-inline banner-social-buttons">
-                        <a href="get-started.html" class="btn btn-default btn-lg"><span class="network-name">Get started</span></a>
+                <class="list-inline banner-social-buttons">
+                <a href="get-started.html" class="btn btn-default btn-lg"><span class="network-name">Get started</span></a>
 
             </div>
         </div>
 
     </div>
-        <!-- /.container -->
+    <!-- /.container -->
 
     <!-- /.banner -->
 
@@ -298,15 +330,15 @@
         <div class="container">
             <div class="row cm_footer">
                 <div class="col-lg-12">
-                <img class="cm_logo_footer img-responsive" src="img/logo_white.png" alt="logo">
-                <br>
-                <a class="" id="footer" href="about-us.html"><small>About us</small></a>
-                <br>
-                <a class="" id="footer" href="contact.html"><small>Contact</small></a>
-                <br>
-                <a class="" id="footer" href="#"><small>Privacy Policy</small></a>
-                <br>
-                <p class="copyright text-muted small">Copyright &copy; CloudMatch 2014. All Rights Reserved</p>
+                    <img class="cm_logo_footer img-responsive" src="img/logo_white.png" alt="logo">
+                    <br>
+                    <a class="" id="footer" href="about-us.html"><small>About us</small></a>
+                    <br>
+                    <a class="" id="footer" href="contact.html"><small>Contact</small></a>
+                    <br>
+                    <a class="" id="footer" href="#"><small>Privacy Policy</small></a>
+                    <br>
+                    <p class="copyright text-muted small">Copyright &copy; CloudMatch 2014. All Rights Reserved</p>
                 </div>
             </div>
         </div>
