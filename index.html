@@ -26,25 +26,13 @@
 
     <script type="text/javascript">
 
-        $( document ).ready(function() {
-            $('#myCarousel').carousel();
-        });
+    $( document ).ready(function() {
+        $('#myCarousel').carousel();
+    });
 
-        function carouselTo0() {
-            $('#myCarousel').carousel(0);
-        }
-
-        function carouselTo1() {
-            $('#myCarousel').carousel(1);
-        }
-
-        function carouselTo2() {
-            $('#myCarousel').carousel(2);
-        }
-
-        function carouselTo3() {
-            $('#myCarousel').carousel(3);
-        }
+    function carouselTo(number) {
+        $('#myCarousel').carousel(number);
+    }
 
     </script>
 
@@ -210,7 +198,6 @@
 
                 <div class="col-lg-4">
                     <h1 class="cm_sub-title">Use CloudMatch</h1>
-
                 </div>
 
                 <div class="col-lg-8">
@@ -219,25 +206,17 @@
             </div>
 
             <div class="cm_btn_align">
-                <button id="carousel-button-0" type="button" class="btn btn-default btn-lg cm_btn_padding" onclick="carouselTo0()">Learn how electronic circuits work</button>
-                <button id="carousel-button-1" type="button" class="btn btn-default btn-lg cm_btn_padding" onclick="carouselTo1()">Learn language</button>
-                <button id="carousel-button-2" type="button" class="btn btn-default btn-lg cm_btn_padding" onclick="carouselTo2()">Learn mathmatics</button>
-                <button id="carousel-button-3" type="button" class="btn btn-default btn-lg cm_btn_padding" onclick="carouselTo3()">Share your note</button>
-                <button id="carousel-button-4" type="button" class="btn btn-default btn-lg cm_btn_padding" onclick="carouselTo4()">Be a friend</a>
-                <button id="carousel-button-5" type="button" class="btn btn-default btn-lg cm_btn_padding" onclick="carouselTo5()">Play game</button>
+                <button type="button" class="btn btn-default btn-lg cm_btn_padding" onclick="carouselTo(0)">Group learning</button>
+                <button type="button" class="btn btn-default btn-lg cm_btn_padding" onclick="carouselTo(1)">Share your note</button>
+                <button type="button" class="btn btn-default btn-lg cm_btn_padding" onclick="carouselTo(2)">Easy friending</button>
             </div>
 
             <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
-
-
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
                 </ol>
 
                 <!-- Wrapper for slides -->
@@ -246,22 +225,12 @@
                         <img class="img-gif" src="img/gif-circuit.gif" alt="circuit">
                     </div>
                     <div class="item">
-                        <img class="img-gif" src="img/gif-lang.gif" alt="lang">
+                        <img class="img-gif" src="img/gif-evernote.gif" alt="lang">
                     </div>
                     <div class="item">
-                        <img class="img-gif" src="img/gif-math.gif" alt="math">
-                    </div>
-                    <div class="item">
-                        <img class="img-gif" src="img/gif-evernote.gif" alt="note">
-                    </div>
-                        <div class="item">
-                        <img class="img-gif" src="img/gif-friend.gif" alt="friend">
+                        <img class="img-gif" src="img/gif-friend.gif" alt="math">
                     </div>
                 </div>
-
-                <!-- Controls -->
-            
-                </a>
             </div>
         </div>
     </div>
