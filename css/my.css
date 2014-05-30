@@ -20,7 +20,7 @@
 .content-section-a {
 	background-color: #EB5F60;
 	background-size: 1500px;
-	padding: 40px 0;
+	padding: 50px 0;
 }
 
 .content-section-b {
@@ -63,7 +63,6 @@
 	background: url("../img/gray.png");
   	background-repeat: repeat;
   	width: 100%;
-
 }
 
 .content-section-g {
@@ -89,6 +88,12 @@
 	max-height: 50px;
 }
 
+.top-img{
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	vertical-align: bottom;
+}
 .cm_title{
 	font-family: 'Signika','roboto-regular', "Helvetica Neue",Helvetica,Arial,sans-serif;
 	text-align: left;
@@ -206,13 +211,15 @@
 .cm_intro-message {
 	text-align:left;
 	font-weight: 500;
+	padding: 100px 0;
+
 
 }
 
 .cm_brandmessage{
 	font-size: 260%;
 	font-weight:100;
-	margin-top: 45px;
+	margin-top: 100px;
 	margin-bottom: 40px;
 	text-align: center;
 	color: #fff;
