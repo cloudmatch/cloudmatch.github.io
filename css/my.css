@@ -470,6 +470,18 @@ footer {
 	padding-top: 15px;
 }
 
+.check-pro{
+	font-family: Roboto-light, "Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-align: left;
+	color:#fff;
+	font-size: 18px;
+	line-height: 2.3;
+	padding-top: 8px;
+	padding-left: 20px;
+	padding-bottom: 123px;
+
+}
+
 .contact-form {
     margin-top:30px;
 }
