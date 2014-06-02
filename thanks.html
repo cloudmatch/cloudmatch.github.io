@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Thanks | CloudMatch</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom Google Web Font -->
+    <link href='http://fonts.googleapis.com/css?family=Signika:400,300,700' rel='stylesheet' type='text/css'>
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/landing-page.css" rel="stylesheet">
+    <link href="css/my.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top cm_navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand cm_brand" href="http://cloudmatch.io"> <img class="cm_logo" src="img/logo_cm_text.png" alt="logo"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+                <ul class="nav navbar-nav cm_navbar">
+                    <li><a href="index.html">Features</a>
+                    </li>
+                    <li><a href="get-started.html">Get started</a>
+                    </li>
+                    <li><a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <div class="intro-about-us cm_gray">
+        <div class="container">
+            <h2 class="cm_about-us_title">thanks for your message!</h2>
+            <center><a href="http://cloudmatch.io"> <img style="margin-bottom: 40px" src="img/logo_cm.png" alt="logo"></a></center>
+        </div>
+    </div>
+<!-- /.container -->
+
+
+
+
+</body>
+
+
+<footer>
+    <div class="container">
+        <div class="row cm_footer">
+            <div class="col-lg-12">
+                <img class="cm_logo_footer img-responsive" src="img/logo_white.png" alt="logo">
+                <br>
+                <a class="" id="footer" href="about-us.html"><small>About us</small></a>
+                <br>
+                <a class="" id="footer" href="contact.html"><small>Contact</small></a>
+                <br>
+                <p class="copyright text-muted small">Copyright &copy; CloudMatch 2014. All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="js/jquery-1.10.2.js"></script>
+<script src="js/bootstrap.js"></script>
+
+<script type="text/javascript">
+            // When the window has finished loading create our google map below
+            google.maps.event.addDomListener(window, 'load', init);
+
+            function init() {
+                // Basic options for a simple Google Map
+                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+                var mapOptions = {
+                    // How zoomed in you want the map to start at (always required)
+                    zoom: 11,
+
+                    // The latitude and longitude to center the map (always required)
+                    center: new google.maps.LatLng(40.6700, -73.9400), // New York
+
+                    // How you would like to style the map.
+                    // This is where you would paste any style found on Snazzy Maps.
+                    styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#a2daf2"}]},{"featureType":"landscape.man_made","elementType":"geometry","stylers":[{"color":"#f7f1df"}]},{"featureType":"landscape.natural","elementType":"geometry","stylers":[{"color":"#d0e3b4"}]},{"featureType":"landscape.natural.terrain","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#bde6ab"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"poi.medical","elementType":"geometry","stylers":[{"color":"#fbd3da"}]},{"featureType":"poi.business","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffe15f"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#efd151"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"color":"black"}]},{"featureType":"transit.station.airport","elementType":"geometry.fill","stylers":[{"color":"#cfb2db"}]}]
+                };
+
+
+                // Get the HTML DOM element that will contain your map
+                // We are using a div with id="map" seen below in the <body>
+                var mapElement = document.getElementById('map');
+
+                // Create the Google Map using out element and options defined above
+                var myOptions = {
+                    zoom: 15,
+                    center: new google.maps.LatLng(53.385873, -1.471471),
+                    mapTypeId: google.maps.MapTypeId.ROADMAP,
+                    styles: style_array_from_above_here
+                };
+
+                var map = new google.maps.Map(document.getElementById('map'), myOptions);
+
+
+
+
+
+            }
+            </script>
+
+
+
+            </html>
