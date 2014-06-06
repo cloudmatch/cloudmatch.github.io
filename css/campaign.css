@@ -1,6 +1,82 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.green-bg {
+	padding-top: 40px;
+	padding-bottom: 10px;
+	color:#fff;
+	background-size: cover;
+	text-align: center;
+	background-color: #5fb336;
+
+}
+
+.cp_gif{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.cp_logo{
+	margin-right: auto;
+	margin-left: auto;
+	max-height: 80px
+}
+
+.section-gif {
+	text-align: center;
+}
+
+.cm_about-us_title{
+	text-align: center;
+	padding: 30px;
+	font-weight: lighter;
+}
+
+.cp_by {
+	font-family: 'Grand Hotel',  'Pacifico', cursive;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: lighter;
+	color:#494949;
+}
+
+.cp_title {
+	font-family: 'Signika','roboto-regular', "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font: #fff;
+	font-size: 30px;
+	font-weight: lighter;
+	padding-bottom: 50px;
+}
+
+.btn-sample { 
+  color: #ffffff; 
+  background-color: #5fb336; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-sample:hover, 
+.btn-sample:focus, 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  color: #ffffff; 
+  background-color: #2a7f00; 
+  border-color: #2a7f00; 
+} 
+ 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  background-image: none; 
+} 
+ 
+
+ 
+.btn-sample .badge { 
+  color: #FFFFFF; 
+  background-color: none; 
+}
+
 .intro-header {
 	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
 	color: #f8f8f8;
@@ -358,10 +434,6 @@ footer {
 	margin-bottom: 120px;
 }
 
-.cm_about-us_title{
-	text-align: center;
-	padding: 50px;
-}
 
 .cm_padding{
 	padding:70px;
