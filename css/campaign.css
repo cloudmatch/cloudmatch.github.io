@@ -1,6 +1,16 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.cp-bg-0 {
+	padding-top: 0px;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	background-color: #0ab4dc;
+	color: #fff;
+}
+
 .cp-bg-1 {
 	padding-top: 40px;
 	padding-bottom: 10px;
@@ -19,7 +29,7 @@
 }
 
 .cp-bg-3 {
-	padding-top: 30px;
+	padding-top: 20px;
 	padding-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
@@ -55,15 +65,13 @@
 
 .cp-features {
 	color:#494949;
-	text-align: center;
+	text-align: left;
 	font-weight: 100;
 	font-size: 18px;
-	margin:0 auto;
+	margin-left: 15px;
 }
 
-ul {
-    list-style-position: inside;
-}
+
 
 .cm_about-us_title{
 	text-align: center;
@@ -95,15 +103,31 @@ ul {
 	text-align: center;
 }
 
+.cp_title-head {
+	font-family: 'Signika','roboto-regular', "Helvetica Neue", Helvetica,Arial,sans-serif;
+	font: #ffffff;
+	font-weight: lighter;
+	padding-top: 0px;	
+	padding-bottom: 0px;
+	font-size: 20px;
+}
+
 .cp_title {
 	font-family: 'Signika','roboto-regular', "Helvetica Neue", Helvetica,Arial,sans-serif;
 	font: #fff;
-	font-size: 30px;
 	font-weight: lighter;
-	padding-top: 20px;	
-	padding-bottom: 20px;
+	padding-top: 10px;	
+	padding-bottom: 10px;
 }
 
+.cp_title-d {
+	font-family: 'Signika','roboto-regular', "Helvetica Neue", Helvetica,Arial,sans-serif;
+	font: #fff;
+	font-weight: lighter;
+	padding-top: 0px;	
+	padding-bottom: 0px;
+	text-align: left;
+}
 .btn-sample { 
   color: #ffffff; 
   background-color: #5fb336; 
