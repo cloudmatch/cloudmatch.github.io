@@ -37,9 +37,20 @@
   ga('create', 'UA-51631098-1', 'cloudmatch.io');
   ga('send', 'pageview');
 
-  $('.carousel').carousel({
-    interval: false
+
 })
+
+    </script>
+
+        <script type="text/javascript">
+
+    $( document ).ready(function() {
+        $('#myCarousel').carousel();
+    });
+
+    function carouselTo(number) {
+        $('#myCarousel').carousel(number);
+    }
 
     </script>
 
@@ -69,7 +80,7 @@
 
                 <!-- Wrapper for slides -->
         <div class="carousel-inner">
-            
+
             <div class="item active"><!-- class of active since it's the first item -->
                 <div class="cp-bg-1">
                     <div class="container">
@@ -87,7 +98,7 @@
         <div class="item">
             <div class="cp-bg-1">
                 <div class="container">
-                    <img class="img-responsive cp-logo" src="img/logo-linkedin-cm.gif" alt="l-logo"></img>
+                    <img class="cp-logo" src="img/logo-linkedin-cm.gif" alt="l-logo"></img>
                     <h2 class="cp_title">Bringing 'pintch to connect' to the world's largest professional network.</h2>
                 </div>
             </div>
@@ -101,13 +112,13 @@
         <div class="item">
             <div class="cp-bg-1">
                 <div class="container">
-                    <img class="img-responsive cp-logo" src="img/logo-skype-cm.gif" alt="s-logo"></img>
+                    <img class="cp-logo" src="img/logo-skype-cm.gif" alt="s-logo"></img>
                     <h2 class="cp_title">Bringing a swipeable call to the premium internet call.</h2>
                 </div>
             </div>
             <div class="cp-bg-2">     
                 <div class="container section-gif">
-                    <img class="img-responsive cp_gif" src="img/gif-skype.gif" alt="skype"></img>
+                    <img class="cp_gif" src="img/gif-skype.gif" alt="skype"></img>
                 </div>
             </div>
         </div>
@@ -131,17 +142,19 @@
 
                     <div class="btn-group">
                         <button type="button" class="btn btn-primary btn-lg btn-gif" onclick="carouselTo(0)">Evernote</button>
-                        <button type="button" class="btn btn-primary btn-lg btn-gif" onclick="carouselTo(1)">Skype</button>
-                        <button type="button" class="btn btn-primary btn-lg btn-gif" onclick="carouselTo(2)">LinkedIn</button>
+                        <button type="button" class="btn btn-primary btn-lg btn-gif" onclick="carouselTo(1)">LinkedIn</button>
+                        <button type="button" class="btn btn-primary btn-lg btn-gif" onclick="carouselTo(2)">Skype</button>
                     </div>
 
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-primary btn-lg btn-gif" onclick="carouselTo(3)">Learning apps: electronic circuits</span></button>
-                        <button type="button" class="btn btn-primary btn-lg btn-gif" onclick="carouselTo(4)">language</span></button>
-                        <button type="button" class="btn btn-primary btn-lg btn-gif" onclick="carouselTo(5)">mathematics</span></button>
-                    </div>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary btn-lg btn-gif" onclick="carouselTo(3)">Learning apps: electronic circuits</span></button>
+                    <button type="button" class="btn btn-primary btn-lg btn-gif" onclick="carouselTo(4)">language</span></button>
+                    <button type="button" class="btn btn-primary btn-lg btn-gif" onclick="carouselTo(5)">mathematics</span></button>
+                </div>
+
+                    
             </div>
-        </div>
+    
 
     <div class="cp-bg-3">
         <div class="container">
