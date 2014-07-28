@@ -2,7 +2,7 @@
 /* CSS Document */
 
 .cp-bg-0 {
-	padding-top: 0px;
+	padding-top: 35px;
 	padding-bottom: 10px;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -11,9 +11,39 @@
 	color: #fff;
 }
 
+.cp-bg-0-evernote {
+	padding-top: 35px;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	background-color: #66cc33;
+	color: #fff;
+}
+
+.cp-bg-0-linkedin {
+	padding-top: 35px;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	background-color: #006699;
+	color: #fff;
+}
+
+.cp-bg-0-skype {
+	padding-top: 35px;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	background-color: #66ccff;
+	color: #fff;
+}
+
 .cp-bg-1 {
 	padding-top: 30px;
-	padding-bottom: 10px;
+	padding-bottom: 0px;
 	background-size: cover;
 	text-align: center;
 	background-color: #fff;
@@ -34,7 +64,21 @@
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	background-color: #EB5F60;
+	font:#F9F9F4;
+}
+
+.cp-bg-4 {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 	background-color: #d3c154;
+}
+
+.cp-margin{
+	margin-bottom: 50px;
 }
 
 .cp_gif{
@@ -71,6 +115,12 @@
 	margin-left: 15px;
 }
 
+.cp-gif{
+	text-align: center;
+	max-width: 1050px;
+	margin-right: auto;
+	margin-left: auto;
+}
 
 
 .cm_about-us_title{
@@ -113,9 +163,10 @@
 }
 
 .cp_title {
-	font-family: 'Signika','roboto-regular', "Helvetica Neue", Helvetica,Arial,sans-serif;
 	font: #fff;
+	font-family: 'Signika','roboto-regular', "Helvetica Neue", Helvetica,Arial,sans-serif;
 	font-weight: lighter;
+	color: #fff;
 	padding-top: 10px;	
 	padding-bottom: 10px;
 }
@@ -446,11 +497,11 @@ filter: progid:none !important;
 	margin-left: auto;
 }
 
-.cm_btn_align{
+.cm_btn_align-cp{
 	text-align:center;
 	margin-right: 0px;
 	margin-left: 0px;
-	margin-bottom: 25px;
+	margin-bottom: 0px;
 }
 
 .button{
@@ -747,4 +798,44 @@ fieldset[disabled] .btn-gif.active {
 .btn-gif .badge { 
   color: #FFFFFF; 
   background-color: #F9F9F4; 
+}
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 30px;
+    padding: 7px 16px;
+    border: 2px solid #fff;
+    border-radius: 35px;
+    font-size: 40px;
+    color: #fff;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    color: #fff;
+    background: rgba(255,255,255,.1);
+}
+
+.btn-circle i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
+.btn-circle:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
 }
