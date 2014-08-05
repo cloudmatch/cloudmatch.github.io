@@ -246,6 +246,29 @@
 	margin-left: auto;
 }
 
+.cm-margin{
+	margin-top: 100px;
+}
+a.cm-link:link {
+	color: #fff;
+	text-decoration: underline;
+}
+
+a.cm-link:active{
+	color: #666666;
+	text-decoration: none;
+}
+
+a.cm-link:visited{
+	color: #fff;
+	text-decoration: underline;
+}
+
+a.cm-link:hover{
+	color:#666666;
+	text-decoration: none;
+}
+
 .carousel-control.left, .carousel-control.right{ 
 background: none !important; 
 filter: progid:none !important; 
